@@ -9,7 +9,7 @@ body::-webkit-scrollbar {
   }
 
 .inner{
-    margin-left: 80px;
+    margin-left: 120px;
     margin-right: 80px;
 }
 
@@ -27,8 +27,8 @@ header{
 }
 
 header img{
-    margin-top:15px;
-    margin-bottom:15px;
+    margin-top:25px;
+    margin-bottom:25px;
     width: 135px;
     height: 45px;
 }
@@ -68,7 +68,7 @@ b{
     margin-top:25px;
     font-size: 20px;
     width: 620px;
-    margin-bottom:30px;
+    margin-bottom:60px;
 }
 
 .view-button{
@@ -79,8 +79,9 @@ b{
     font-size: 24px;
     color: white;
     background-color: #F36523;
-    margin-bottom:30px;
+    margin-bottom:40px;
     cursor: pointer;
+    
 }
 
 .icon-button-area{
@@ -103,14 +104,14 @@ b{
 .sub-img1{
    width: 400px;
    position: relative;
-   left: 260PX;
-   top:800PX
+   left: 200PX;
+   top:780PX
 }
 
 .sub-img2{
     float: right;
     width: 600px;
-    top:790PX;
+    top:770PX;
     left: 60PX;
     transform: rotate(200deg);
     position: relative;
@@ -120,7 +121,7 @@ b{
     width: 850px;
     position: relative;
     top: 80PX;
-    left: 400PX;
+    left: 340PX;
 }
 
 
@@ -131,13 +132,11 @@ b{
 .front-imgs{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     position: relative;
 }
 
 .img-content-top, .img-content-bottom{
     display: flex;
-    justify-content: center;
 }
 
 .img-content-1{
@@ -159,7 +158,6 @@ b{
 
 .img-content-3{
     background-image: url("./imgs/bg/bg4.png");
-    background-position: center;
     width: 200px;
     height: 220px;
     background-size: cover;
@@ -172,6 +170,7 @@ b{
     height: 220px;
     margin-right: 10px;
     background-size: cover;
+    background-position: center;
 }
 
 .img-content-5{
@@ -197,6 +196,7 @@ b{
     width: 200px;
     height: 220px;
     background-size: cover;
+    background-position: center;
 }
 
 .img-content-8{
@@ -213,6 +213,7 @@ b{
     width: 725px;
     height: 220px;
     background-size: cover;
+    background-position: center;
     margin-right: 10px;
 }
 
@@ -222,7 +223,6 @@ b{
     background-size: cover;
     width: 725px;
     height: 220px;
-    background-position: center;
 }
 
 .gradiant{
@@ -245,29 +245,29 @@ b{
 .sub-img3{
     width: 350px;
     position: relative;
-    left: 1350PX;
-    top:730PX
+    left: 1300PX;
+    top:750PX
  }
  
  .sub-img4{
      width: 500px;
      top: 200PX;
-     left: 60PX;
+     left: 400PX;
      position: relative;
  }
  
  .sub-img5{
      width: 750px;
      position: relative;
-     top: 740PX;
-     right: 800px;
+     top: 780PX;
+     right: 900px;
      z-index: 0;
  }
 
  .footer-line{
     width: 100%;
     height:1px;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-bottom: 5px;
     background-color: #F5F5F5;
  }
