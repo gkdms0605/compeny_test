@@ -13,7 +13,7 @@
         rel="stylesheet">
 </head>
 
-<body>
+<body onload="TimeLoad()">
     <div class="inner">
         <header>
             <div class="logo">
@@ -31,22 +31,22 @@
             <div class="text-area">
                 <h2 class="title">대구 10미</h2>
                 <h5 class="sub_title">대구에 와야 그 참맛을 느낄 수 있는 본고장 향토음식</h5>
-                <p class="info" id="text-info"><b>납작만두</b>는 무미(無味)에 가까운 듯한 맛이 특징이다. 얇은 만두피에 당면을 넣고 반달 모양으로 빚어 물에 한 번 삶은
+                <p class="info" id="infoText"><b>납작만두</b>는 무미(無味)에 가까운 듯한 맛이 특징이다. 얇은 만두피에 당면을 넣고 반달 모양으로 빚어 물에 한 번 삶은
                     다음 구워서 간장을 술술
                     뿌려 먹는 납작만두는 대구에서만 맛볼 수 있는 음식이다. 1960년대 초 대구에서 기존 중국 만두의 느끼한 맛을 없애기 위해 당면, 부추, 당근, 양배추, 파 등을 주재료로 한
                     식물성
                     만두소를 넣어 만든 신개념 만두로서 요즘에는 떡볶이나 매운 채소를 섞어 매콤하게 즐기기도 하는 별미다.</p>
                 <button class="view-button">맛집 보기</button>
                 <div class="icon-button-area">
-                    <button><img src="./imgs/icons/free-icon-arrow-left-6423874.png"></button>
-                    <button><img src="./imgs/icons/outline_pause_black_24dp.png"></button>
-                    <button><img src="./imgs/icons/free-icon-arrow-right-6423875.png"></button>
+                    <button onclick="delCount()"><img src="./imgs/icons/free-icon-arrow-left-6423874.png"></button>
+                    <button onclick="State()"><img src="./imgs/icons/State1.png" id="iconBtn"></button>
+                    <button onclick="addCount()"><img src="./imgs/icons/free-icon-arrow-right-6423875.png"></button>
                 </div>
             </div>
             <div class="img-area">
                 <img class="sub-img1" src="./imgs/grapic/sub_img1.png">
                 <img class="sub-img2" src="./imgs/grapic/sub_img2.png">
-                <img class="main-img" src="./imgs/grapic/mains/main1.png">
+                <img class="main-img" id="imageId" src="./imgs/grapic/mains/main1.png">
             </div>
         </section>
         <section class="page2">
@@ -140,5 +140,5 @@
         </div>
     </footer>
 </body>
-
+<script src="./slide.js"></script>
 </html>
